@@ -56,13 +56,31 @@
 
   exec "hi Normal guifg=".s:shade6." guibg=".s:shade0
 
+  " Not all terminals support italics properly. If yours does, opt-in.
+  if !exists("g:garbage_terminal_italics")
+          let g:garbage_terminal_italics = 0
+  endif
+  function! s:h(group, style)
+          if g:garbage_terminal_italics == 0 && has_key(a:style, "cterm") && a:style["cterm"] == "italic"
+                  unlet a:style.cterm
+          endif
+          execute "highlight" a:group
+                                  \ "guifg="   (has_key(a:style, "fg")    ? a:style.fg.gui   : "NONE")
+                                  \ "guibg="   (has_key(a:style, "bg")    ? a:style.bg.gui   : "NONE")
+                                  \ "guisp="   (has_key(a:style, "sp")    ? a:style.sp.gui   : "NONE")
+                                  \ "gui="     (has_key(a:style, "gui")   ? a:style.gui      : "NONE")
+                                  \ "ctermfg=" . l:ctermfg
+                                  \ "ctermbg=" . l:ctermbg
+                                  \ "cterm="   (has_key(a:style, "cterm") ? a:style.cterm    : "NONE")
+  endfunction
+
   """""""""""""""""
   " Syntax groups "
   """""""""""""""""
 
   " Default
 
-  exec "hi Comment guifg=".s:shade2
+  exec "hi Comment guifg=".s:shade2." gui=italic cterm=italic"
   exec "hi Constant guifg=".s:accent3
   exec "hi Character guifg=".s:accent4
   exec "hi Identifier guifg=".s:accent2." gui=none cterm=none"
@@ -83,7 +101,7 @@
 
   " fugitive
 
-  exec "hi gitcommitComment guifg=".s:shade3
+  exec "hi gitcommitComment guifg=".s:shade3." gui=italic cterm=italic"
   exec "hi gitcommitOnBranch guifg=".s:shade3
   exec "hi gitcommitHeader guifg=".s:shade5
   exec "hi gitcommitHead guifg=".s:shade3
