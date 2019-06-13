@@ -16,3 +16,10 @@ let g:lightline = { " if you use itchyny/lightline.vim for your statusline
       \ }
 syntax enable
 ```
+### Italics Support
+This theme supports italics for code comments;  since not all terminals support italics this is something you'll have to enable in your vim configuration if you want to use it with your italics friendly terminal:
+
+```vim
+" Enable italicized coments
+let g:garbage_terminal_italics=1
+```
