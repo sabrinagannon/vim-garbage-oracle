@@ -5,7 +5,7 @@
 
   let s:shade0 = "#371d32"
   let s:shade1 = "#52394d"
-  let s:shade2 = "#6c5569"
+  let s:shade2 = "#a3829c"
   let s:shade3 = "#877184"
   let s:shade4 = "#a28e9f"
   let s:shade5 = "#bdaaba"
@@ -27,7 +27,7 @@
   if &background == 'light'
 
   let s:shade0 = "#f2e2f1"
-  let s:shade1 = "#e3c2db"
+  let s:shade1 = "#7f4570"
   let s:shade2 = "#d3a1c5"
   let s:shade3 = "#c481af"
   let s:shade4 = "#b5619a"
