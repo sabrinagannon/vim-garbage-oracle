@@ -86,7 +86,7 @@
   exec "hi Identifier guifg=".s:accent2." gui=none cterm=none"
   exec "hi Statement guifg=".s:accent5
   exec "hi PreProc guifg=".s:accent6
-  exec "hi Type guifg=".s:accent7
+  exec "hi Type guifg=".s:accent6
   exec "hi Special guifg=".s:accent4
   exec "hi Underlined guifg=".s:accent5
   exec "hi Error guifg=".s:shade0." guibg=".s:shade1
@@ -156,7 +156,7 @@
   exec "hi Title guifg=".s:accent5
   exec "hi Visual guifg=".s:shade0." guibg=".s:shade1
   exec "hi VisualNOS guifg=".s:shade0." guibg=".s:shade1
-  exec "hi WarningMsg guifg=".s:accent0
+  exec "hi WarningMsg guifg=".s:shade1
   exec "hi WildMenu guifg=".s:accent4." guibg=".s:shade1
 
   " NERDTree
