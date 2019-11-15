@@ -3,22 +3,22 @@
 
   if &background == 'dark'
 
-  let s:shade0 = "#371d32"
-  let s:shade1 = "#52394d"
-  let s:shade2 = "#a3829c"
-  let s:shade3 = "#877184"
-  let s:shade4 = "#a28e9f"
-  let s:shade5 = "#bdaaba"
-  let s:shade6 = "#d7c6d6"
-  let s:shade7 = "#f2e2f1"
-  let s:accent0 = "#fb9495"
-  let s:accent1 = "#bbbcf0"
-  let s:accent2 = "#a9cdd6"
-  let s:accent3 = "#c1edcc"
-  let s:accent4 = "#b0c0bc"
-  let s:accent5 = "#19d3db"
-  let s:accent6 = "#eff2c0"
-  let s:accent7 = "#aafdb0"
+  let s:shade0 = "#371d32" " Dark purple
+  let s:shade1 = "#52394d" " Slightly lighter but still dark purple
+  let s:shade2 = "#a3829c" " Mauve pink
+  let s:shade3 = "#877184" " Darker mauve pink
+  let s:shade4 = "#a28e9f" " Slightly ligher but darker mauve pink
+  let s:shade5 = "#bdaaba" " Lightest mauve pink
+  let s:shade6 = "#d7c6d6" " Light pink
+  let s:shade7 = "#f2e2f1" " Lightest pink
+  let s:accent0 = "#fb9495" " Light red
+  let s:accent1 = "#bbbcf0" " Lilac (light purple)
+  let s:accent2 = "#a9cdd6" " Light pale blue
+  let s:accent3 = "#c1edcc" " Light pale green
+  let s:accent4 = "#b0c0bc" " Pale olive
+  let s:accent5 = "#19d3db" " Bright cyan
+  let s:accent6 = "#eff2c0" " Pale yellow
+  let s:accent7 = "#aafdb0" " Bright green
 
   endif
 
@@ -26,22 +26,22 @@
 
   if &background == 'light'
 
-  let s:shade0 = "#f2e2f1"
-  let s:shade1 = "#7f4570"
-  let s:shade2 = "#d3a1c5"
-  let s:shade3 = "#c481af"
-  let s:shade4 = "#b5619a"
-  let s:shade5 = "#a64184"
-  let s:shade6 = "#96206e"
-  let s:shade7 = "#870058"
-  let s:accent0 = "#a4303f"
-  let s:accent1 = "#2b5b75"
-  let s:accent2 = "#734d90"
-  let s:accent3 = "#376954"
-  let s:accent4 = "#3f59b7"
-  let s:accent5 = "#684f54"
-  let s:accent6 = "#5d5255"
-  let s:accent7 = "#ffc6fd"
+  let s:shade0 = "#f2e2f1" " Lightest pink
+  let s:shade1 = "#7f4570" " Dark pink
+  let s:shade2 = "#d3a1c5" " Mid tone pink
+  let s:shade3 = "#c481af" " Slightly darker mid tone pink
+  let s:shade4 = "#b5619a" " Darker than the above mid tone pink
+  let s:shade5 = "#a64184" " Magenta
+  let s:shade6 = "#96206e" " Darker magenta
+  let s:shade7 = "#870058"  " Dark pink
+  let s:accent0 = "#a4303f" " Dark red
+  let s:accent1 = "#2b5b75" " Dark teal
+  let s:accent2 = "#734d90" " Dark purple
+  let s:accent3 = "#376954" " Dark green
+  let s:accent4 = "#3f59b7" " Dark blue
+  let s:accent5 = "#684f54" " Dark brown
+  let s:accent6 = "#5d5255" " Grey brown
+  let s:accent7 = "#ffc6fd" " Red brown
 
   endif
 
