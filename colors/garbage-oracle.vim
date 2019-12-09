@@ -4,11 +4,11 @@
   if &background == 'dark'
 
   let s:shade0 = "#371d32" " Dark purple
-  let s:shade1 = "#52394d" " Slightly lighter but still dark purple
-  let s:shade2 = "#a3829c" " Mauve pink
+  let s:shade1 = "#a3829c" " Mauve pink
+  let s:shade2 = "#bdaaba" " Lightest mauve pink
   let s:shade3 = "#877184" " Darker mauve pink
   let s:shade4 = "#a28e9f" " Slightly ligher but darker mauve pink
-  let s:shade5 = "#bdaaba" " Lightest mauve pink
+  let s:shade5 = "#52394d" " Slightly lighter but still dark purple
   let s:shade6 = "#d7c6d6" " Light pink
   let s:shade7 = "#f2e2f1" " Lightest pink
   let s:accent0 = "#fb9495" " Light red
