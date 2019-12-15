@@ -138,8 +138,8 @@
   exec "hi MatchParen guibg=".s:shade2
   exec "hi MoreMsg guifg=".s:shade0." guibg=".s:accent4
   exec "hi NonText guifg=".s:shade2." guibg=".s:shade0
-  exec "hi Pmenu guifg=".s:shade0." guibg=".s:shade1
-  exec "hi PmenuSel guifg=".s:shade1." guibg=".s:shade0
+  exec "hi Pmenu guifg=".s:shade0." guibg=".s:shade2
+  exec "hi PmenuSel guifg=".s:shade2." guibg=".s:shade0
   exec "hi PmenuSbar guifg=".s:accent3." guibg=".s:shade1
   exec "hi PmenuThumb guifg=".s:accent0." guibg=".s:shade2
   exec "hi Question guifg=".s:shade7." guibg=".s:shade1
