@@ -117,7 +117,7 @@
 
   " Default
 
-  exec "hi ColorColumn guibg=".s:accent7
+  exec "hi ColorColumn guibg=".s:shade5
   exec "hi Conceal guifg=".s:shade2
   exec "hi Cursor guifg=".s:shade0." guibg=".s:shade0
   exec "hi CursorColumn guifg=".s:shade0." guibg=".s:shade1
