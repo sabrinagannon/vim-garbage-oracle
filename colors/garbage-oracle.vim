@@ -31,7 +31,7 @@
   let s:shade2 = "#d3a1c5" " Mid tone pink
   let s:shade3 = "#c481af" " Slightly darker mid tone pink
   let s:shade4 = "#b5619a" " Darker than the above mid tone pink
-  let s:shade5 = "#a64184" " Magenta
+  let s:shade5 = "#dbadcc" " Muted pink
   let s:shade6 = "#96206e" " Darker magenta
   let s:shade7 = "#870058"  " Dark pink
   let s:accent0 = "#a4303f" " Dark red
