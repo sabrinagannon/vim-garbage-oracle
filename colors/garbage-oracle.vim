@@ -7,7 +7,7 @@
   let s:shade1 = "#a3829c" " Mauve pink
   let s:shade2 = "#bdaaba" " Lightest mauve pink
   let s:shade3 = "#877184" " Darker mauve pink
-  let s:shade4 = "#a28e9f" " Slightly ligher but darker mauve pink
+  let s:shade4 = "#a28e9f" " Slightly lighter but darker mauve pink
   let s:shade5 = "#52394d" " Slightly lighter but still dark purple
   let s:shade6 = "#d7c6d6" " Light pink
   let s:shade7 = "#f2e2f1" " Lightest pink
